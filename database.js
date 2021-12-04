@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const URI = 'mongodb://localhost:27017/driverx?replicaSet=rs';
+const URI = 'mongodb://localhost:27017/linsdriver?replicaSet=rs';
 
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
